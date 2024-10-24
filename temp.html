@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Visualization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .skill-container {
+            width: 100%;
+            background-color: #f1f1f1;
+            border-radius: 20px;
+            padding: 10px;
+            margin: 15px 0;
+        }
+
+        .skill {
+            height: 30px;
+            border-radius: 20px;
+        }
+
+        .python {
+            width: 40%;
+            background-color: #ff5733;
+        }
+
+        .java {
+            width: 30%;
+            background-color: #33aaff;
+        }
+
+        .cpp {
+            width: 20%;
+            background-color: #ffcc33;
+        }
+
+        .others {
+            width: 10%;
+            background-color: #75a832;
+        }
+
+        .label {
+            display: flex;
+            justify-content: space-between;
+            margin-top: -25px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Skills Distribution</h2>
+
+    <div class="skill-container">
+        <div class="skill python"></div>
+        <div class="label"><span>Python</span></div>
+    </div>
+
+    <div class="skill-container">
+        <div class="skill java"></div>
+        <div class="label"><span>Java</span></div>
+    </div>
+
+    <div class="skill-container">
+        <div class="skill cpp"></div>
+        <div class="label"><span>C++</span></div>
+    </div>
+
+    <div class="skill-container">
+        <div class="skill others"></div>
+        <div class="label"><span>Other Technologies</span></div>
+    </div>
+
+</body>
+</html>

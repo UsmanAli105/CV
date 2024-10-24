@@ -12,7 +12,7 @@
         }
         .courses{
             margin-bottom: 25px;
-            padding: 20px;
+            padding: 25px !important;
             background-color: #fefefe;
             box-shadow: 9px 12px 14px -4px rgba(0,0,0,1);
             border-radius: 25px;    
@@ -86,6 +86,7 @@
     box-shadow: 9px 12px 14px -4px rgba(0,0,0,1);
     border-radius: 25px;
     .volunteer-experience-card{
+        padding: 25px !important;
         background-color: #fefefe;
         box-shadow: 9px 12px 14px -4px rgba(0,0,0,1);
         border-radius: 25px;
@@ -106,6 +107,7 @@
     position: relative;
     .image-card{
         position: absolute;
+        z-index: -1;
         width: 100%;
         display: flex;
         justify-content: flex-end;
@@ -116,5 +118,42 @@
             border-radius: 100%;
             overflow: hidden;
         }
+    }
+}
+p{
+    text-wrap: wrap;
+}
+
+
+
+
+
+@media (max-width: 360px) {
+    .mobile-container {
+        padding: 25px !important;
+    }
+    .personal-details-card-container .personal-details-card{
+        padding: 25px !important;
+    }
+    .personal-details-card-container .personal-details-card{
+        padding: 25px !important;
+    }
+    .job-experience-card{
+        padding: 25px !important;
+        dl, ol, ul {
+            padding: 0px !important;
+        }
+    }
+    .personal-details-card-container .personal-details-card {
+        padding: 0px !important;
+    }
+    .recomendations-card-container .recomendations-card{
+        padding: 10px !important;
+    }
+    .volunteer-experience-container{
+        padding: 10px !important;
+    }
+    .volunteer-experience-container .volunteer-experience-card{
+        padding: 0px;
     }
 }

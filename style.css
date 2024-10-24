@@ -118,7 +118,7 @@ p {
   text-wrap: wrap;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 900px) {
   .mobile-container {
     padding: 25px !important;
   }
